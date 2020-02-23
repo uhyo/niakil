@@ -1,0 +1,32 @@
+{
+  "name": "niakil",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhyo/niakil.git"
+  },
+  "keywords": [],
+  "author": "uhyo <uhyo@uhy.ooo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uhyo/niakil/issues"
+  },
+  "homepage": "https://github.com/uhyo/niakil#readme",
+  "dependencies": {
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
